@@ -32,7 +32,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_75%_10%,#1c2b20_0%,#0e120d_55%)]" />
       <div className="absolute -left-40 top-1/3 w-[36rem] h-[36rem] rounded-full bg-ocean/20 blur-[120px]" aria-hidden />
 
-      <div className="relative flex-1 mx-auto w-full max-w-[90rem] px-5 sm:px-8 pt-28 lg:pt-0 grid lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-6 items-center">
+      <div className="relative flex-1 mx-auto w-full max-w-[90rem] px-5 sm:px-8 pt-28 pb-8 lg:py-10 grid lg:grid-cols-[1.05fr_0.95fr] gap-10 lg:gap-6 items-center">
         {/* LEFT — editorial column */}
         <div className="relative z-10 py-10 lg:py-0 lg:pr-8">
           <Reveal variant="fade" delay={100}>
